@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Background from "./components/Background"
-//import Projects from "./components/Projects"
+import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Education from "./components/Education"
 import Contact from "./components/Contact"
@@ -14,7 +14,7 @@ const App = () => {
       <Background/>
       <Navbar/>
       <Hero/>
-      {/* <Projects/> */}
+      <Projects/>
       <Skills/>
       <Education/>
       <Contact/>
