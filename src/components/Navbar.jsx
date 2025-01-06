@@ -27,7 +27,7 @@ const Navbar = () => {
     ];
 
     return (
-        <div className=" top-0 left-0 w-full bg-black text-white z-50 lg:flex justify-between">
+        <div className=" top-0 left-0 w-full bg-black text-white z-50 lg:flex justify-between ">
             <motion.div
                 initial={{ opacity: 0, y: -100 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -38,15 +38,17 @@ const Navbar = () => {
                     <span className="text-white">Port</span>
                     <span className="text-purple-500">folio</span>
                 </div>
-                <ul className="flex items-center space-x-6 text-lg">
+                <div className="flex items-center space-x-6 text-lg">
                     {items.map((item) => (
-                        <li key={item.id} className="hover:text-purple-500 cursor-pointer">
+                        <a key={item.id}
+                        href={`#${item.text.toLowerCase()}`}
+                        className="hover:text-purple-500 cursor-pointer">
                             {item.text}
-                        </li>
+                        </a>
                     ))}
-                </ul>
+                </div>
                 <a
-                    href="#"
+                    href="https://docs.google.com/document/d/1nUqcfsOMmYIbqJSXOygvKtoSVqWpJfUf/edit?usp=sharing&ouid=115142436485296858419&rtpof=true&sd=true" target="_blank"
                     className="bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 rounded-full"
                 >
                     Download CV
@@ -58,7 +60,7 @@ const Navbar = () => {
                     <motion.div
                         variants={variants}
                         onClick={() => setmenu((prev) => !prev)}
-                        className="bg-white w-2/3 h-screen text-black fixed z-10"
+                        className="bg-white sm:w-1/3 h-screen text-black fixed z-10"
                     >
                         <div className="px-7 py-6">
                             {menu ? <IoClose size={30} /> : <IoMenu size={30} />}

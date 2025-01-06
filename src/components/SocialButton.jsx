@@ -51,37 +51,43 @@ export default function SocialButton() {
   return (
     <div className="flex space-x-4">
       {/* email Icon */}
-      <motion.button
+      <motion.a
         className="text-red-500 text-4xl"
         variants={variants}
         initial="initial"
         animate="animate"
         whileHover="hover"
+        href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://mail.google.com/mail&service=mail&ec=GBRAFw"
+        target="_blank"
       >
         <SiGmail />
-      </motion.button>
+      </motion.a>
 
       {/* Github Icon */}
-      <motion.button
+      <motion.a
         className="text-yellow-500 text-4xl"
         variants={variants}
         initial="initial"
         animate="animate"
         whileHover="hover"
+        href="https://github.com/SHANTANUKUMAR3688"
+        target="_blank"
       >
         <FaGithub />
-      </motion.button>
+      </motion.a>
 
       {/* LinkedIn Icon */}
-      <motion.button
+      <motion.a
         className="text-blue-500 text-4xl"
         variants={variants}
         initial="initial"
         animate="animate"
         whileHover="hover"
+        href="https://www.linkedin.com/in/shantanukumar3688/"
+        target="_blank"
       >
         <FaLinkedinIn />
-      </motion.button>
+      </motion.a>
 
       {/* Twitter Icon */}
       <motion.button

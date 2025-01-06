@@ -6,7 +6,7 @@ import Animation from "./Animation";
 const Hero = () => {
   return (
     <>
-      <section className="relative w-full">
+      <section className="relative w-full " id="about">
         <header className=" w-1/2 aspect-[16/2] -skew-x-12 rounded-full bg-gradient-to-r from-[blue] via-[purple] to-[yellow] opacity-20 blur-[100px] left-10 top-0 hidden md:block"></header>
         <header className=" w-1/2 aspect-[16/1] -skew-x-12 rounded-full bg-gradient-to-r from-[blue] via-[purple] to-[yellow] opacity-20 blur-[100px] right-10 bottom-0 hidden md:block"></header>
         <section className="w-full px-5 sm:px-12 lg:px-0 max-w-screen-lg lg:max-w-screen-xl mx-auto relative">

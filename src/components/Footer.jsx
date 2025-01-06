@@ -15,8 +15,8 @@ export default function Footer() {
 
     return (
         <>
-            <footer className="relative z-10 text-white border-t-2 border-t-white mt-8">
-                <div className="container p-8 flex justify-between">
+            <footer className="relative z-10 text-white border-t-2 border-t-white mt-8 ">
+                <div className="container p-8 flex justify-between sm:justify-between">
                     <nav className="flex ml-2">
                         {letter.map((letter, index) => (
                             <motion.span
