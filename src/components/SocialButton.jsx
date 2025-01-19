@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function SocialButton() {
   const animationDuration = 2;
@@ -22,34 +23,22 @@ export default function SocialButton() {
     },
   };
 
-  //     const animationDuration=2;
-  //     const variants={
-  //         initial:{pathLength:0,strokeOpacity:0, fillOpacity:0},
-  //         animate:{
-  //             pathLength:1,
-  //             strokeOpacity:0,
-  //             fillOpacity:1,
-  //             transition:{
-  //                 duration:animationDuration,
-  //                 ease:"easeInOut",
-  //                 strokeOpacity:{
-  //                     delay:animationDuration
-  //                 },
-  //                 fillOpacity:{
-  //                     delay:animationDuration
-  //             }
-  //         },
-  //         hover:{
-  //             scale:1.1,
-  //             transition:{
-  //                 duration:0.3
-  //             },
-  //         },
-  //     },
-  // }
-
   return (
     <div className="flex space-x-4">
+      
+      {/* Whatsup icon */}
+      <motion.a
+        className="text-green-500 text-4xl"
+        variants={variants}
+        initial="initial"
+        animate="animate"
+        whileHover="hover"
+        href="https://wa.me/+9958060784"
+        target="_blank"
+      >
+        <FaWhatsapp />
+      </motion.a>
+
       {/* email Icon */}
       <motion.a
         className="text-red-500 text-4xl"
@@ -90,7 +79,7 @@ export default function SocialButton() {
       </motion.a>
 
       {/* Twitter Icon */}
-      <motion.button
+      {/* <motion.button
         className="text-blue-400 text-4xl"
         variants={variants}
         initial="initial"
@@ -98,7 +87,7 @@ export default function SocialButton() {
         whileHover="hover"
       >
         <FaTwitter />
-      </motion.button>
+      </motion.button> */}
     </div>
   );
 }

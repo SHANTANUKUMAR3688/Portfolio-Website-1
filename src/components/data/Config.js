@@ -3,29 +3,30 @@
 export const PROJECTS = [
     {
         id: 1,
-        image:"https://media.istockphoto.com/id/1335717953/photo/project-manager-working-on-computer-at-the-office-concept-with-icons-of-management-areas-such.jpg?s=612x612&w=0&k=20&c=HKKel0F9p7u9JL54sDOtYOuR1yVv81LA2ISHmuU7mdM=",
-        title:"Education",
-        description:"Developed a feature-rich gaming website using React.js, framer-motion, and Tailwind CSS, translating UI/UX mockups into a responsive and user-friendly interface. ",
-        name:"Gaming Website",
-        githublink:"https://gaming-website-cyan.vercel.app/"
+        image: "https://media.istockphoto.com/id/1335717953/photo/project-manager-working-on-computer-at-the-office-concept-with-icons-of-management-areas-such.jpg?s=612x612&w=0&k=20&c=HKKel0F9p7u9JL54sDOtYOuR1yVv81LA2ISHmuU7mdM=",
+        title: "Gaming website",
+        description: "Developed a feature-rich gaming website using React.js, framer-motion, and Tailwind CSS, translating UI/UX mockups into a responsive and user-friendly interface.",
+        name: "Gaming Website",
+        githublink: "https://gaming-website-cyan.vercel.app/"
     },
     {
         id: 2,
-        image:"https://media.istockphoto.com/id/1335717953/photo/project-manager-working-on-computer-at-the-office-concept-with-icons-of-management-areas-such.jpg?s=612x612&w=0&k=20&c=HKKel0F9p7u9JL54sDOtYOuR1yVv81LA2ISHmuU7mdM=",
-        title:"E-commerce Website",
-        description:"Developed a feature-rich education-tech website using React.js, Redux, and Tailwind CSS, translating UI/UX mockups into a responsive and user-friendly interface.",
-        name:"Education-tech Website",
-        githublink:"https://education-tech-website.vercel.app/"
+        image: "https://media.istockphoto.com/id/1335717953/photo/project-manager-working-on-computer-at-the-office-concept-with-icons-of-management-areas-such.jpg?s=612x612&w=0&k=20&c=HKKel0F9p7u9JL54sDOtYOuR1yVv81LA2ISHmuU7mdM=",
+        title: "E-commerce Website",
+        description: "Developed a feature-rich education-tech website using React.js, Redux, and Tailwind CSS, translating UI/UX mockups into a responsive and user-friendly interface.",
+        name: "Education-tech Website",
+        githublink: "https://education-tech-website.vercel.app/"
     },
     {
         id: 3,
-        image:"https://media.istockphoto.com/id/1335717953/photo/project-manager-working-on-computer-at-the-office-concept-with-icons-of-management-areas-such.jpg?s=612x612&w=0&k=20&c=HKKel0F9p7u9JL54sDOtYOuR1yVv81LA2ISHmuU7mdM=",
-        title:"Food Delivery",
-        description:"Developed a feature-rich food-delivery website using React.js, Redux, and Tailwind CSS, translating UI/UX mockups into a responsive and user-friendly interface.",
-        name:"Food Delivery Website",
-        githublink:"https://food-delivery-website-mocha.vercel.app/"
+        image: "https://media.istockphoto.com/id/1335717953/photo/project-manager-working-on-computer-at-the-office-concept-with-icons-of-management-areas-such.jpg?s=612x612&w=0&k=20&c=HKKel0F9p7u9JL54sDOtYOuR1yVv81LA2ISHmuU7mdM=",
+        title: "Food Delivery",
+        description: "Developed a feature-rich food-delivery website using React.js, Redux, and Tailwind CSS, translating UI/UX mockups into a responsive and user-friendly interface.",
+        name: "Food Delivery Website",
+        githublink: "https://food-delivery-website-mocha.vercel.app/"
     },
-]
+];
+
 
 
 // skills section
@@ -108,10 +109,10 @@ export const EDUCATION = [
     },
     {
         id:2,
-        degree:"B.COM(HONS.)",
+        degree:"BCA",
         institution:"MAHARSHI DAYANAND UNIVERSITY",
         year:"2019-2022",
-        details:"I have completed my B.COM(HONS.) from Maharshi Dayanand University in 2022.",
+        details:"I have completed my BCA from Maharshi Dayanand University in 2022.",
         icon:"https://cdn-icons-png.flaticon.com/128/1940/1940611.png",
         title:"Education",
         subtitle:"MANAV RACHNA UNIVERSITY",

@@ -27,14 +27,14 @@ const Navbar = () => {
     ];
 
     return (
-        <div className=" top-0 left-0 w-full bg-black text-white z-50 lg:flex justify-between ">
+        <div className=" top-0 left-0 w-full bg-black text-white z-50 lg:flex justify-between">
             <motion.div
                 initial={{ opacity: 0, y: -100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 className="container mx-auto hidden md:flex justify-between items-center py-4 px-6"
             >
-                <div className="text-2xl font-bold flex items-center gap-1">
+                <div className="text-2xl font-bold flex items-center gap-1 ">
                     <span className="text-white">Port</span>
                     <span className="text-purple-500">folio</span>
                 </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
                     <motion.div
                         variants={variants}
                         onClick={() => setmenu((prev) => !prev)}
-                        className="bg-white sm:w-1/3 h-screen text-black fixed z-10"
+                        className="bg-white sm:w-2/4 h-[100%] text-black fixed z-10"
                     >
                         <div className="px-7 py-6">
                             {menu ? <IoClose size={30} /> : <IoMenu size={30} />}
@@ -86,13 +86,13 @@ const Navbar = () => {
                 </motion.div>
 
                 <motion.div
-                    className="text-xl font-bold items-center gap-2 py-6 px-4"
+                    className="text-4xl font-bold items-center gap-2 py-6 pr-1"
                     initial={{ opacity: 0, x: 100, y: -100 }}
                     animate={{ opacity: 1, x: 0, y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <span className="text-white">iron</span>
-                    <span className="text-purple-500">coding</span>
+                    <span className="text-white">Port</span>
+                    <span className="text-purple-500">folio</span>
                 </motion.div>
             </div>
         </div>

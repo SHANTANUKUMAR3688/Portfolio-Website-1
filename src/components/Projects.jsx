@@ -6,7 +6,7 @@ function Projects() {
   return (
     <>
       <section className="pt-20 ml-7 mr-7" id="projects">
-        <h2 className="mb-16 relative text-center text-3xl lg:text-6xl font-bold text-blue-500">PROJECTS</h2>
+        <h2 className="mb-16 relative text-center text-6xl font-bold text-blue-500">PROJECTS</h2>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {PROJECTS.map((project) => (
             <div

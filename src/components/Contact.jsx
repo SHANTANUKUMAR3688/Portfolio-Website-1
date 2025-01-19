@@ -18,7 +18,7 @@ export default function Contact() {
                     viewports={{once:true}}
                     className="mb-10">
                         <div className='bg-black z-20 md:w-11/12 w-full text-white rounded-xl'>
-                            <div className='border border-yellow-500 bg-pink-500 rounded-xl p-3 flex items-center'>
+                            <div className='border border-yellow-500 bg-pink-700 rounded-xl p-3 flex items-center'>
                                 <img src={data.icon} alt={data.title}
                                 width={64}
                                 height={64}
@@ -52,9 +52,9 @@ export default function Contact() {
                                 <textarea rows="4" id='message' required placeholder='your name' className='apperance-none bg-transparent border-none w-full py-2 px-3 leading-tight focus:outline-none text-lg font-medium'>{" "}</textarea>
                             </label>
 
-                            <button className='flex justify-center items-center'><div className='text-center bg-yellow-500 rounded-full w-40 '>
+                            <a href="https://wa.me/+9958060784" className='flex justify-center items-center'><div className='text-center bg-yellow-500 rounded-full w-40 '>
                             Send Message
-                            </div></button>
+                            </div></a>
                         </div>
                     </section>
                 </form>

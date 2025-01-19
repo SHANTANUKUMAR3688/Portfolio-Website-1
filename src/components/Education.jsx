@@ -12,7 +12,7 @@ const SectionItem = ({ id, degree, institution, title, subtitle, details, year, 
     viewport={{ once: false }}
   >
     <section className="bg-black z-20 text-white rounded-xl">
-      <section className="border border-yellow-500 bg-purple-700 rounded-xl p-3 flex items-center">
+      <section className="border border-yellow-500 bg-purple-900 rounded-xl p-3 flex items-center">
         <img src={icon} alt="icon" width={64} height={64} />
         <div className="ml-10">
           <h3 className="text-xl font-semibold">{title}</h3>
